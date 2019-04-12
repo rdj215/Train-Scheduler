@@ -1,0 +1,3 @@
+I was able to connect my site to firebase and store the information that was input into the search fields, but unable to 
+retrieve the information to dispaly it on the site (played with childSnaphot for a while). Also had trouble connecting moment.js and applying to script. After reading documentation
+I believe the .toNow is the method I would have wanted to use. Essentially I ran out of time because I do think I could have got the site working.

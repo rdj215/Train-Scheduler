@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+	
+	<div class="container"></div>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+		  <h1 class="display-4">Hogwarts Express</h1>
+		  <p class="lead">All information to trains headed to wizarding world</p>
+		</div>
+	  </div>
+
+	  <table class="table" id="train-table">
+		<thead class="thead-dark">
+		  <tr>
+			<th scope="col">Train Name</th>
+			<th scope="col">Destination</th>
+			<th scope="col">Frequency(mins)</th>
+			<th scope="col">Next Arrival</th>
+			<th scope="col">Minutes Away</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<th scope="row">1</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tbody>
+	  </table>
+	  
+	</div>
+	<br>
+	<br>
+	
+	<div id="search-parameters" class="container-div">
+        <h2 id="search-parameters-header" class="container-header" class="adminHeader"><i class="fas fa-calendar-alt" ></i> &nbsp Search Parameters </h2>
+
+        <form id="search-parameters-forms">
+            
+            <div class="form-group">
+            <label for="search-input">Train Name</label>
+            <input type="text" class="form-control" id="search-input">
+            </div>
+
+            <div class="form-group">
+						<label for="number-records">Destination</label>
+						<input type='text' class='form-control' id='destination-input'>
+            </div>
+
+            <div class="form-group">
+                <label for="first-train-input">First Train Time</label>
+                <input type="text" class="form-control" id="first-input">
+            </div>
+
+            <div class="form-group">
+                <label for="frequency-input">Frequency</label>
+                <input type="text" class="form-control" id="frequency-input">
+            </div>
+
+            <div class= "button-group">
+                <button id= "submit-button" class="btn btn-light" type="submit"><i class="fas fa-search"></i> Submit</button>
+            </div>
+
+
+        </form>
+	</div>
+	
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/app.js"></script>
+	
+	
+	
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
